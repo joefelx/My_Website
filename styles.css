@@ -628,15 +628,13 @@ span.bold-text{
         color: #F4F4F2;
     }
     .social_icons{
-        padding: 30px;
         color: #F4F4F2;
         cursor: pointer;
         font-size: 2rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: flex-end;
-        align-items: center;
+        position: relative;
+        left: -5rem;
+        display: grid;
+        text-align: left;
     }
 
     .social_icons a{
