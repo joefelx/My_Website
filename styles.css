@@ -916,6 +916,10 @@ span.bold-text{
       padding: 3rem 25px;
   }
 
+    .links{
+        text-align: left;
+    }
+
     .footer-logo h1{
       color: transparent;
       font-size: 4rem;
