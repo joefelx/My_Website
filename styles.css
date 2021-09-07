@@ -567,7 +567,11 @@ span.bold-text{
     text-align: center;
     background-color: #FF6767;
     color: #2d343f;
-    padding: 3px 0;
+    padding: 0 0 7px 0;
+}
+
+.copyright p{
+    font-size: 10px;
 }
 
 
