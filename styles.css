@@ -27,6 +27,18 @@ p{
     pointer-events: none;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ff6767;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #2d343f;
+}
+
 .h1-styling{
     color: #2d343f;
     font-family: 'Poppins';
@@ -549,6 +561,13 @@ span.bold-text{
     letter-spacing: -3px;
     -webkit-text-stroke-color: #2d343f;
     pointer-events: none;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #FF6767;
+    color: #2d343f;
+    padding: 3px 0;
 }
 
 
